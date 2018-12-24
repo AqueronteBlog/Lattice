@@ -1,0 +1,44 @@
+
+edif2ngd  -l "MachXO2" -d LCMXO2-7000HE -path "D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky" -path "D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky"   "D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky_LED_Blinky.edi" "LED_Blinky_LED_Blinky.ngo"   
+edif2ngd:  version Diamond (64-bit) 3.10.3.144
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Writing the design to LED_Blinky_LED_Blinky.ngo...
+
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+
+
+ngdbuild  -a "MachXO2" -d LCMXO2-7000HE  -p "C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data"  -p "D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky" -p "D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky"  "LED_Blinky_LED_Blinky.ngo" "LED_Blinky_LED_Blinky.ngd"  	
+ngdbuild:  version Diamond (64-bit) 3.10.3.144
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2017 Lattice Semiconductor Corporation,  All rights reserved.
+Reading 'LED_Blinky_LED_Blinky.ngo' ...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00a/data/xo2alib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/mg5g00/data/mg5glib.ngl'...
+Loading NGL library 'C:/lscc/diamond/3.10_x64/ispfpga/or5g00/data/orc5glib.ngl'...
+
+
+Running DRC...
+
+    <postMsg mid="1166052" type="Warning" dynamic="2" navigation="1" arg0="logical" arg1="reset" arg2="reset"  />
+    <postMsg mid="1163101" type="Warning" dynamic="1" navigation="0" arg0="1"  />
+
+Design Results:
+      4 blocks expanded
+Complete the first expansion.
+Writing 'LED_Blinky_LED_Blinky.ngd' ...
+Total CPU Time: 0 secs  
+
+Total REAL Time: 0 secs  
+

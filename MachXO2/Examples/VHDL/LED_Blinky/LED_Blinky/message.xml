@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>reset</Dynamic>
+            <Navigation>reset</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CD434 :&quot;D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:34:12:34:14|Signal clk in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Dynamic>
+            <Navigation>CD434</Navigation>
+            <Navigation>D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>12</Navigation>
+            <Navigation>34</Navigation>
+            <Navigation>14</Navigation>
+            <Navigation>Signal clk in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL168 :&quot;D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:31:3:31:10|Removing instance OSCInst0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Dynamic>
+            <Navigation>CL168</Navigation>
+            <Navigation>D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>3</Navigation>
+            <Navigation>31</Navigation>
+            <Navigation>10</Navigation>
+            <Navigation>Removing instance OSCInst0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

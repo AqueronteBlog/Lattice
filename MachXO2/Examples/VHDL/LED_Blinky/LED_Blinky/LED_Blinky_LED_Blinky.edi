@@ -1,0 +1,82 @@
+(edif LED_block
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2018 12 24 19 59 19)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "M-2017.03L-SP1-1, mapper maplat, Build 1796R"))
+     )
+   )
+  (library LUCENT
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell OB (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port I (direction INPUT))
+           (port O (direction OUTPUT))
+         )
+       )
+    )
+    (cell GSR (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port GSR (direction INPUT))
+         )
+       )
+    )
+    (cell VHI (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+    (cell VLO (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Z (direction OUTPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell LED_block (cellType GENERIC)
+       (view led1 (viewType NETLIST)
+         (interface
+           (port reset (direction INPUT))
+           (port led (direction OUTPUT))
+         )
+         (contents
+          (instance GND_0 (viewRef PRIM (cellRef VLO (libraryRef LUCENT)))          )
+          (instance VCC_0 (viewRef PRIM (cellRef VHI (libraryRef LUCENT)))          )
+          (instance GSR_INST (viewRef PRIM (cellRef GSR (libraryRef LUCENT)))
+          )
+          (instance led_pad (viewRef PRIM (cellRef OB (libraryRef LUCENT)))          )
+          (net GND (joined
+           (portRef Z (instanceRef GND_0))
+           (portRef I (instanceRef led_pad))
+          ))
+          (net VCC (joined
+           (portRef Z (instanceRef VCC_0))
+           (portRef GSR (instanceRef GSR_INST))
+          ))
+          (net reset (joined
+           (portRef reset)
+          ))
+          (net led (joined
+           (portRef O (instanceRef led_pad))
+           (portRef led)
+          ))
+         )
+        (property orig_inst_of (string "LED_block"))
+       )
+    )
+  )
+  (design LED_block (cellRef LED_block (libraryRef work))
+	(property PART (string "lcmxo2_7000he-4") ))
+)

@@ -1,0 +1,3 @@
+@W: CD434 :"D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":34:12:34:14|Signal clk in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CL168 :"D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":31:3:31:10|Removing instance OSCInst0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+
