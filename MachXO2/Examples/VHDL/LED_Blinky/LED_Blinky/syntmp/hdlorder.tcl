@@ -1,1 +1,1 @@
-project -fileorder "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky.vhd" 
+project -fileorder "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd" "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky.vhd" 

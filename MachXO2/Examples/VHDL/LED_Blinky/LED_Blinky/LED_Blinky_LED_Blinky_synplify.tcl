@@ -44,13 +44,13 @@ set_option -resolve_multiple_driver 0
 
 #-- add_file options
 add_file -vhdl {C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd}
-add_file -vhdl -lib "work" {D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky.vhd}
+add_file -vhdl -lib "work" {D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky.vhd}
 
 #-- top module name
 set_option -top_module LED_block
 
 #-- set result format/file last
-project -result_file {D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky_LED_Blinky.edi}
+project -result_file {D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky_LED_Blinky.edi}
 
 #-- error message log file
 project -log_file {LED_Blinky_LED_Blinky.srf}

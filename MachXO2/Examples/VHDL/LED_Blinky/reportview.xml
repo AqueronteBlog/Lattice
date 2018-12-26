@@ -3,8 +3,8 @@
 <ReportView version="2.0">
     <Implement name="LED_Blinky">
         <ToolReport id="tooldec" path="" status="0"/>
-        <ToolReport id="toolhle_genhierarchy" path="D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky/hdla_gen_hierarchy.html" status="1"/>
+        <ToolReport id="toolhle_genhierarchy" path="D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/hdla_gen_hierarchy.html" status="1"/>
         <ToolReport id="toolpio" path="" status="2"/>
-        <ToolReport id="toolsso" path="" status="2"/>
+        <ToolReport id="toolsso" path="D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/sso_rpt.htm" status="1"/>
     </Implement>
 </ReportView>

@@ -1,3 +1,8 @@
-@W: CD434 :"D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":34:12:34:14|Signal clk in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CL168 :"D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":31:3:31:10|Removing instance OSCInst0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":62:6:62:7|All reachable assignments to led6 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":62:6:62:7|All reachable assignments to led5 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":62:6:62:7|All reachable assignments to led4 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":62:6:62:7|All reachable assignments to led3 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":62:6:62:7|All reachable assignments to led2 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":62:6:62:7|All reachable assignments to led1 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":62:6:62:7|All reachable assignments to led0 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
 

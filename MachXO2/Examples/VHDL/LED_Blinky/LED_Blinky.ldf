@@ -9,6 +9,9 @@
         <Source name="LED_Blinky.lpf" type="Logic Preference" type_short="LPF">
             <Options/>
         </Source>
+        <Source name="LED_Blinky/LED_Blinky.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
     </Implementation>
     <Strategy name="Strategy1" file="LED_Blinky1.sty"/>
 </BaliProject>

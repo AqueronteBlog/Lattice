@@ -1,0 +1,6 @@
+@E: CL219 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":18:3:18:6|Multiple non-tristate drivers for net led7 in LED_block
+@E: CL229 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":18:3:18:6|Unresolved tristate drivers for net led7 in LED_block
+@E: MF420 |Netlist read from file D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synwork\layer0.srs failed
+@E: Could not find specified top level LED_block (library: work, cell: LED_block)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
+

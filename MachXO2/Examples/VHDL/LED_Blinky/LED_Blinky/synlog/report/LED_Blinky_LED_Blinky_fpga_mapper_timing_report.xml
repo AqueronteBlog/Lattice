@@ -5,7 +5,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 *******************************************************************************************-->
 <report_table display_priority="2" name="Timing Summary">
 <report_link name="Detailed report">
-<data>D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synlog\LED_Blinky_LED_Blinky_fpga_mapper.srr</data>
+<data>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synlog\LED_Blinky_LED_Blinky_fpga_mapper.srr</data>
 <title>START OF TIMING REPORT</title>
 </report_link>
 <row>
@@ -13,5 +13,11 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <data tcl_name="req_freq">Req Freq</data>
 <data tcl_name="est_freq">Est Freq</data>
 <data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>LED_block|clk_inferred_clock</data>
+<data>53.2 MHz</data>
+<data>144.1 MHz</data>
+<data>11.857</data>
 </row>
 </report_table>

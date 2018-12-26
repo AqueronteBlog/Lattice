@@ -1,5 +1,5 @@
 #defaultlanguage:vhdl
-#OPTIONS:"|-layerid|0|-orig_srs|D:\\Workspace\\Lattice\\MatchXO2\\Examples\\VHDL\\LED_Blinky\\LED_Blinky\\synwork\\LED_Blinky_LED_Blinky_comp.srs|-top|LED_block|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\Workspace\\Lattice\\MachXO2\\Examples\\VHDL\\LED_Blinky\\LED_Blinky\\synwork\\LED_Blinky_LED_Blinky_comp.srs|-top|LED_block|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\bin64\\c_vhdl.exe":1501888510
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\location.map":1501911808
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\std.vhd":1501887824
@@ -11,10 +11,10 @@
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\unsigned.vhd":1501887824
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\vhd\\hyperents.vhd":1501887824
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\cae_library\\synthesis\\vhdl\\machxo2.vhd":1493309504
-#CUR:"D:\\Workspace\\Lattice\\MatchXO2\\Examples\\VHDL\\LED_Blinky\\LED_Blinky.vhd":1545677944
+#CUR:"D:\\Workspace\\Lattice\\MachXO2\\Examples\\VHDL\\LED_Blinky\\LED_Blinky.vhd":1545860688
 #CUR:"C:\\lscc\\diamond\\3.10_x64\\synpbase\\lib\\lucent\\machxo2.vhd":1501892616
 0 "C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd" vhdl
-1 "D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd" vhdl
+1 "D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd" vhdl
 
 # Dependency Lists (Uses list)
 0 -1
@@ -25,7 +25,7 @@
 1 -1
 
 # Design Unit to File Association
-arch work led_block led1 1
+arch work led_block led 1
 module work led_block 1
 
 

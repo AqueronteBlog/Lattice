@@ -6,31 +6,38 @@
             <Task name="TimingSimFileVlg" build_result="0" update_result="3" update_time="0"/>
             <Task name="TimingSimFileVHD" build_result="0" update_result="3" update_time="0"/>
             <Task name="Bitgen" build_result="0" update_result="3" update_time="0"/>
-            <Task name="Jedecgen" build_result="0" update_result="3" update_time="0"/>
+            <Task name="Jedecgen" build_result="2" update_result="0" update_time="1545860709"/>
         </Milestone>
-        <Milestone name="Map" build_result="0" build_time="0">
-            <Task name="Map" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="Map" build_result="2" build_time="1545860701">
+            <Task name="Map" build_result="2" update_result="0" update_time="1545860701"/>
             <Task name="MapTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVerilogSimFile" build_result="0" update_result="3" update_time="0"/>
             <Task name="MapVHDLSimFile" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="PAR" build_result="0" build_time="0">
-            <Task name="PAR" build_result="0" update_result="3" update_time="0"/>
+        <Milestone name="PAR" build_result="2" build_time="1545860706">
+            <Task name="PAR" build_result="2" update_result="0" update_time="1545860706"/>
             <Task name="PARTrace" build_result="0" update_result="3" update_time="0"/>
             <Task name="IOTiming" build_result="0" update_result="3" update_time="0"/>
         </Milestone>
-        <Milestone name="Synthesis" build_result="2" build_time="1545677960">
-            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1545677960"/>
+        <Milestone name="Synthesis" build_result="2" build_time="1545860701">
+            <Task name="Synplify_Synthesis" build_result="2" update_result="0" update_time="1545860701"/>
         </Milestone>
         <Milestone name="TOOL_Report" build_result="0" build_time="0">
-            <Task name="HDLE" build_result="2" update_result="0" update_time="1545677944"/>
-            <Task name="SSO" build_result="0" update_result="3" update_time="0"/>
-            <Task name="PIODRC" build_result="0" update_result="3" update_time="0"/>
+            <Task name="HDLE" build_result="2" update_result="0" update_time="1545860688"/>
+            <Task name="SSO" build_result="0" update_result="2" update_time="1545840575"/>
+            <Task name="PIODRC" build_result="0" update_result="2" update_time="0"/>
+            <Task name="BKM" build_result="0" update_result="2" update_time="0"/>
+            <Task name="DEC" build_result="0" update_result="2" update_time="0"/>
         </Milestone>
-        <Milestone name="Translate" build_result="2" build_time="1545677962">
-            <Task name="Translate" build_result="2" update_result="0" update_time="1545677962"/>
+        <Milestone name="Translate" build_result="2" build_time="1545860701">
+            <Task name="Translate" build_result="2" update_result="0" update_time="1545860701"/>
         </Milestone>
-        <Report name="LED_Blinky_LED_Blinky.edi" last_build_time="1545677959" last_build_size="2352"/>
-        <Report name="LED_Blinky_LED_Blinky.ngd" last_build_time="1545677962" last_build_size="1625"/>
+        <Report name="LED_Blinky.v" last_build_time="1545776106" last_build_size="136"/>
+        <Report name="LED_Blinky_LED_Blinky.bgn" last_build_time="1545860709" last_build_size="4310"/>
+        <Report name="LED_Blinky_LED_Blinky.edi" last_build_time="1545860698" last_build_size="43225"/>
+        <Report name="LED_Blinky_LED_Blinky.jed" last_build_time="1545860709" last_build_size="1464674"/>
+        <Report name="LED_Blinky_LED_Blinky.ncd" last_build_time="1545860706" last_build_size="49966"/>
+        <Report name="LED_Blinky_LED_Blinky.ngd" last_build_time="1545860701" last_build_size="41778"/>
+        <Report name="LED_Blinky_LED_Blinky_map.ncd" last_build_time="1545860701" last_build_size="35416"/>
     </Strategy>
 </BuildStatus>

@@ -5,9 +5,9 @@ The file contains the optimization information from mapper to be displayed as pa
 *******************************************************************************************-->
 <report_table display_priority="3" name="Optimizations Summary">
 <parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
-<data>0 / 0</data>
+<data>0 / 1</data>
 <report_link name="more">
-<data>D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synlog\report\LED_Blinky_LED_Blinky_fpga_mapper_combined_clk.rpt</data>
+<data>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synlog\report\LED_Blinky_LED_Blinky_fpga_mapper_combined_clk.rpt</data>
 <title>START OF CLOCK OPTIMIZATION REPORT</title>
 </report_link>
 </parameter>

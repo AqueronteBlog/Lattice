@@ -1,9 +1,8 @@
 @N|Running in 64-bit mode
 @N|Running in 64-bit mode
 @N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
-@N:"D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":8:7:8:15|Top entity is set to LED_block.
-@N: CD630 :"D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":8:7:8:15|Synthesizing work.led_block.led1.
+@N:"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":25:7:25:15|Top entity is set to LED_block.
+@N: CD630 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":25:7:25:15|Synthesizing work.led_block.led.
 @N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
-@N: CL159 :"D:\Workspace\Lattice\MatchXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":10:3:10:7|Input reset is unused.
 @N|Running in 64-bit mode
 

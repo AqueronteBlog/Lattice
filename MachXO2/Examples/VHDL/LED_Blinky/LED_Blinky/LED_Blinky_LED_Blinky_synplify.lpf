@@ -3,6 +3,7 @@
 #
 
 # Period Constraints 
+#FREQUENCY NET "clk" 53.2 MHz;
 
 
 # Output Constraints 

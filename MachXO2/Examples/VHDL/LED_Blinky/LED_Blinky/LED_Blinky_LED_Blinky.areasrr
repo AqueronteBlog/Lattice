@@ -1,15 +1,22 @@
 ----------------------------------------------------------------------
-Report for cell LED_block.led1
+Report for cell LED_block.led
 
-Register bits: 0 of 6864 (0%)
+Register bits: 27 of 6864 (0%)
 PIC Latch:       0
-I/O cells:       1
+I/O cells:       9
                                           Cell usage:
                                cell       count    Res Usage(%)
+                              CCU2D       13       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3DX       25       100.0
                                 GSR        1       100.0
-                                 OB        1       100.0
+                                 IB        1       100.0
+                                 OB        8       100.0
+                           OFS1P3BX        1       100.0
+                           ORCALUT4       21       100.0
+                               OSCH        1       100.0
                                 PUR        1       100.0
                                 VHI        1       100.0
                                 VLO        1       100.0
                             
-                         TOTAL             5           
+                         TOTAL            75           
