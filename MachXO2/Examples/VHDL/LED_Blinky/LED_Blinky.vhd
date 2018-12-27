@@ -1,5 +1,5 @@
 -- @brief       LED_Blinky.vhd
--- @details     This example shows how to make an LED blink every 1 second. While reset pin is 'HIGH',
+-- @details     This example shows how to make an LED blink every 0.5 second. While reset pin is 'HIGH',
 --				all LEDs are off.
 --
 --				Internal oscillator is used at 53.20MHz.
@@ -24,21 +24,20 @@ USE machxo2.all;
 
 ENTITY LED_block IS
 	PORT (
-			reset	:	IN	STD_LOGIC;
-			led0	: 	OUT	STD_LOGIC;
-			led1	: 	OUT	STD_LOGIC;
-			led2	: 	OUT	STD_LOGIC;
-			led3	: 	OUT	STD_LOGIC;
-			led4	: 	OUT	STD_LOGIC;
-			led5	: 	OUT	STD_LOGIC;
-			led6	: 	OUT	STD_LOGIC;
-			led7	: 	OUT	STD_LOGIC
+			reset	:	IN		STD_LOGIC;
+			led0	: 	BUFFER	STD_LOGIC;
+			led1	: 	BUFFER	STD_LOGIC;
+			led2	: 	BUFFER	STD_LOGIC;
+			led3	: 	BUFFER	STD_LOGIC;
+			led4	: 	BUFFER	STD_LOGIC;
+			led5	: 	BUFFER	STD_LOGIC;
+			led6	: 	BUFFER	STD_LOGIC;
+			led7	: 	BUFFER	STD_LOGIC
 		  );
 END LED_block;
 
 ARCHITECTURE LED of LED_block IS
 	SIGNAL clk		: STD_LOGIC;
-	SIGNAL myLED7	: STD_LOGIC;
 	
 	--internal oscillator
    COMPONENT OSCH
@@ -56,7 +55,7 @@ BEGIN
    OSCInst0: OSCH
       GENERIC MAP (NOM_FREQ  => "53.20")
       PORT MAP (STDBY => '0', OSC => clk, SEDSTDBY => OPEN);
-   PROCESS(clk, reset, myLED7)
+   PROCESS(clk, reset)
       VARIABLE count :   INTEGER RANGE 0 TO 25_000_000;
    BEGIN
       IF (reset = '1') THEN
@@ -74,9 +73,8 @@ BEGIN
             count := count + 1;
          ELSE
             count := 0;
-            myLED7 <= NOT myLED7;				
+            led7 <= NOT led7;					-- Change LED7 state				
          END IF;
-		 led7 <= myLED7;						-- Change LED7 state
       END IF;
    END PROCESS;
 END LED;
