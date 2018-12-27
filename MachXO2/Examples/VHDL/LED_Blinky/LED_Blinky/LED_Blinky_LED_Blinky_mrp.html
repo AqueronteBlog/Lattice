@@ -25,19 +25,19 @@ Target Vendor:  LATTICE
 Target Device:  LCMXO2-7000HETQFP144
 Target Performance:   4
 Mapper:  xo2c00,  version:  Diamond (64-bit) 3.10.3.144
-Mapped on:  12/26/18  22:45:01
+Mapped on:  12/27/18  09:30:27
 
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
-   Number of registers:     27 out of  7209 (0%)
+   Number of registers:     26 out of  7209 (0%)
       PFU registers:           26 out of  6864 (0%)
-      PIO registers:            1 out of   345 (0%)
+      PIO registers:            0 out of   345 (0%)
    Number of SLICEs:        24 out of  3432 (1%)
       SLICEs as Logic/ROM:     24 out of  3432 (1%)
       SLICEs as RAM:            0 out of  2574 (0%)
       SLICEs as Carry:         13 out of  3432 (0%)
-   Number of LUT4s:         48 out of  6864 (1%)
-      Number used as logic LUTs:         22
+   Number of LUT4s:         47 out of  6864 (1%)
+      Number used as logic LUTs:         21
       Number used as distributed RAM:     0
       Number used as ripple logic:       26
       Number used as shift registers:     0
@@ -68,7 +68,7 @@ Mapped on:  12/26/18  22:45:01
      ripple logic.
    Number of clocks:  1
 
-     Net clk: 17 loads, 17 rising, 0 falling (Driver: OSCInst0 )
+     Net clk: 16 loads, 16 rising, 0 falling (Driver: OSCInst0 )
    Number of Clock Enables:  0
    Number of local set/reset loads for net reset_c merged into GSR:  26
    Number of LSRs:  0
@@ -83,7 +83,7 @@ Mapped on:  12/26/18  22:45:01
      Net count[21]: 2 loads
      Net count[22]: 2 loads
      Net count[6]: 2 loads
-     Net count[7]: 2 loads
+     Net led7_c: 2 loads
 
 
 
@@ -111,7 +111,7 @@ WARNING - map: Using local reset signal 'reset_c' to infer global GSR net.
 +---------------------+-----------+-----------+------------+
 | reset               | INPUT     | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
-| led7                | OUTPUT    | LVCMOS25  | OUT        |
+| led7                | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+
 | led6                | OUTPUT    | LVCMOS25  |            |
 +---------------------+-----------+-----------+------------+

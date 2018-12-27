@@ -3,6 +3,6 @@ relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe -osyn ..\synwork\LED_B
 rc:0 success:1 runtime:0
 file:..\synwork\LED_Blinky_LED_Blinky_hdl_.srs|io:o|time:0|size:0|exec:0|csum:
 file:C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd|io:i|time:1493309504|size:73964|exec:0|csum:CFF92E93E4FE354031DBB4E0E47DD4A6
-file:..\..\LED_Blinky.vhd|io:i|time:1545860688|size:2212|exec:0|csum:800AE00F606968493F6E207D1DE067FB
-file:..\syntax.log|io:o|time:1545860693|size:1010|exec:0|csum:
+file:..\..\LED_Blinky.vhd|io:i|time:1545916396|size:2177|exec:0|csum:F216E0AE509A72FA113BCFA64929272F
+file:..\syntax.log|io:o|time:1545916398|size:1010|exec:0|csum:
 file:C:\lscc\diamond\3.10_x64\synpbase\bin64\c_vhdl.exe|io:i|time:1501888510|size:5913600|exec:1|csum:93E5DE52AE488E4DC33E43C149B8DA6C

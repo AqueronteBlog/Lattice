@@ -17,7 +17,7 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 <row>
 <data>LED_block|clk_inferred_clock</data>
 <data>53.2 MHz</data>
-<data>144.1 MHz</data>
-<data>11.857</data>
+<data>160.4 MHz</data>
+<data>12.561</data>
 </row>
 </report_table>

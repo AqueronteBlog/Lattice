@@ -1,9 +1,9 @@
 #-- Lattice Semiconductor Corporation Ltd.
-#-- Synplify OEM project file D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky/launch_synplify.tcl
-#-- Written on Mon Dec 24 19:20:58 2018
+#-- Synplify OEM project file D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/launch_synplify.tcl
+#-- Written on Thu Dec 27 09:46:54 2018
 
 project -close
-set filename "D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky_syn.prj"
+set filename "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky_syn.prj"
 if ([file exists "$filename"]) {
 	project -load "$filename"
 	project_file -remove *
@@ -45,8 +45,8 @@ if {$create_new == 1} {
 }
 #-- add_file options
 add_file -vhdl "C:/lscc/diamond/3.10_x64/cae_library/synthesis/vhdl/machxo2.vhd"
-add_file -vhdl -lib "work" "D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky.vhd"
+add_file -vhdl -lib "work" "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky.vhd"
 #-- top module name
 set_option -top_module {}
-project -result_file {D:/Workspace/Lattice/MatchXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky.edi}
+project -result_file {D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky.edi}
 project -save "$filename"
