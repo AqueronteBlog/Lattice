@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe  -link  -top  LED_block  -multisrs  D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synwork\LED_Blinky_LED_Blinky_comp.srs  -osyn  D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synwork\LED_Blinky_LED_Blinky_mult.srs  -log  D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synlog\LED_Blinky_LED_Blinky_multi_srs_gen.srr 
+relcom:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe -link -top LED_block -multisrs ..\synwork\LED_Blinky_LED_Blinky_comp.srs -osyn ..\synwork\LED_Blinky_LED_Blinky_mult.srs -log ..\synlog\LED_Blinky_LED_Blinky_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\LED_Blinky_LED_Blinky_comp.srs|io:i|time:1545916400|size:3527|exec:0|csum:E1A8726EA51F314790E7BF4C4A6E942D
+file:..\synwork\LED_Blinky_LED_Blinky_mult.srs|io:o|time:1545916401|size:3284|exec:0|csum:
+file:..\synlog\LED_Blinky_LED_Blinky_multi_srs_gen.srr|io:o|time:1545916401|size:541|exec:0|csum:
+file:C:\lscc\diamond\3.10_x64\synpbase\bin64\syn_nfilter.exe|io:i|time:1501888590|size:8865280|exec:1|csum:B37FCE9CF34F30C81898D8440E6E88C7

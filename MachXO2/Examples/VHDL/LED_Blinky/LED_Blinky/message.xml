@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001030</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>reset_c</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Translate">
+        <Message>
+            <ID>1166052</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>logical</Dynamic>
+            <Dynamic>OSCInst0_SEDSTDBY</Dynamic>
+            <Navigation>OSCInst0_SEDSTDBY</Navigation>
+        </Message>
+        <Message>
+            <ID>1163101</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>1</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:61:6:61:7|All reachable assignments to led6 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to led6 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:61:6:61:7|All reachable assignments to led5 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to led5 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:61:6:61:7|All reachable assignments to led4 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to led4 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:61:6:61:7|All reachable assignments to led3 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to led3 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:61:6:61:7|All reachable assignments to led2 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to led2 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:61:6:61:7|All reachable assignments to led1 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to led1 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL111 :&quot;D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd&quot;:61:6:61:7|All reachable assignments to led0 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Dynamic>
+            <Navigation>CL111</Navigation>
+            <Navigation>D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>All reachable assignments to led0 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;d:\workspace\lattice\machxo2\examples\vhdl\led_blinky\led_blinky.vhd&quot;:61:6:61:7|Found inferred clock LED_block|clk_inferred_clock which controls 26 sequential elements including count[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>d:\workspace\lattice\machxo2\examples\vhdl\led_blinky\led_blinky.vhd</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>6</Navigation>
+            <Navigation>61</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>Found inferred clock LED_block|clk_inferred_clock which controls 26 sequential elements including count[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock LED_block|clk_inferred_clock with period 18.80ns. Please declare a user-defined clock on object &quot;n:clk&quot;</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock LED_block|clk_inferred_clock with period 18.80ns. Please declare a user-defined clock on object &quot;n:clk&quot;</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

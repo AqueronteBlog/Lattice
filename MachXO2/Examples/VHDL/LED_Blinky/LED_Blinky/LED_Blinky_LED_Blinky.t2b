@@ -1,0 +1,5 @@
+
+
+-g RamCfg:Reset
+
+-path "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky"  

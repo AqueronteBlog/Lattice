@@ -1,0 +1,56 @@
+Synopsys HDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\lscc\diamond\3.10_x64\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ps
+@N:"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":25:7:25:15|Top entity is set to LED_block.
+File D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd changed - recompiling
+File C:\lscc\diamond\3.10_x64\synpbase\lib\lucent\machxo2.vhd changed - recompiling
+VHDL syntax check successful!
+File D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd changed - recompiling
+@N: CD630 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":25:7:25:15|Synthesizing work.led_block.led.
+@N: CD630 :"C:\lscc\diamond\3.10_x64\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+Post processing for work.osch.syn_black_box
+Post processing for work.led_block.led
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":61:6:61:7|All reachable assignments to led6 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":61:6:61:7|All reachable assignments to led5 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":61:6:61:7|All reachable assignments to led4 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":61:6:61:7|All reachable assignments to led3 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":61:6:61:7|All reachable assignments to led2 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":61:6:61:7|All reachable assignments to led1 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL111 :"D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky.vhd":61:6:61:7|All reachable assignments to led0 are '1'; removing register. To preserve a constant register, use the syn_preserve attribute.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 27 14:13:19 2018
+
+###########################################################]
+Synopsys Netlist Linker, version comp2017q2p1, Build 190R, built Aug  4 2017
+@N|Running in 64-bit mode
+File D:\Workspace\Lattice\MachXO2\Examples\VHDL\LED_Blinky\LED_Blinky\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 27 14:13:20 2018
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Dec 27 14:13:20 2018
+
+###########################################################]

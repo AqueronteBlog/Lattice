@@ -1,0 +1,16 @@
+#Start recording tcl command: 12/24/2018 20:14:44
+#Project Location: D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky; Project name: LED_Blinky
+prj_project open "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky.ldf"
+prj_run Translate -impl LED_Blinky
+prj_run Synthesis -impl LED_Blinky
+prj_run PAR -impl LED_Blinky
+prj_run Export -impl LED_Blinky
+pgr_project save "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky.xcf"
+prj_src add -exclude "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky.xcf"
+prj_src enable "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "D:/Workspace/Lattice/MachXO2/Examples/VHDL/LED_Blinky/LED_Blinky/LED_Blinky.xcf"
+pgr_program run
+pgr_project close
+#Stop recording: 12/24/2018 21:12:44
