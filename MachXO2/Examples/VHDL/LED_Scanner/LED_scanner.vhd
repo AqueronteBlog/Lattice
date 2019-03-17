@@ -42,7 +42,7 @@ ARCHITECTURE LED of LED_block IS
 	--internal oscillator
    COMPONENT OSCH
       GENERIC (
-            NOM_FREQ: STRING := "53.20"
+            NOM_FREQ: STRING := "2.08"
 			  );
       PORT( 
             STDBY    : IN  STD_LOGIC;
@@ -53,10 +53,10 @@ ARCHITECTURE LED of LED_block IS
 BEGIN
 	--internal oscillator
    OSCInst0: OSCH
-      GENERIC MAP (NOM_FREQ  => "53.20")
+      GENERIC MAP (NOM_FREQ  => "2.08")
       PORT MAP (STDBY => '0', OSC => clk, SEDSTDBY => OPEN);
    PROCESS(clk, reset)
-      VARIABLE count :   INTEGER RANGE 0 TO 25_000_000;
+      VARIABLE count :   INTEGER RANGE 0 TO 416_000;
    BEGIN
       IF (reset = '1') THEN
 		count :=  0;
