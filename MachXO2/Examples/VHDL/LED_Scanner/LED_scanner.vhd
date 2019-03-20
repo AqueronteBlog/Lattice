@@ -22,22 +22,16 @@ LIBRARY machxo2;
 USE machxo2.all;
 
 
-ENTITY LED_block IS
+ENTITY LED_SCANNER_block IS
 	PORT (
-			reset	:	IN		STD_LOGIC;
-			led0	: 	BUFFER	STD_LOGIC;
-			led1	: 	BUFFER	STD_LOGIC;
-			led2	: 	BUFFER	STD_LOGIC;
-			led3	: 	BUFFER	STD_LOGIC;
-			led4	: 	BUFFER	STD_LOGIC;
-			led5	: 	BUFFER	STD_LOGIC;
-			led6	: 	BUFFER	STD_LOGIC;
-			led7	: 	BUFFER	STD_LOGIC
+			reset			:	IN	STD_LOGIC;
+			leds_scanner	: 	OUT	STD_LOGIC_VECTOR (7 downto 0)
 		  );
-END LED_block;
+END LED_SCANNER_block;
 
-ARCHITECTURE LED of LED_block IS
-	SIGNAL clk		: STD_LOGIC;
+ARCHITECTURE LED of LED_SCANNER_block IS
+	SIGNAL clk			: STD_LOGIC;
+	signal shift_reg 	: STD_LOGIC_VECTOR (7 DOWNTO 0) := "10000000";
 	
 	--internal oscillator
    COMPONENT OSCH
@@ -59,22 +53,17 @@ BEGIN
       VARIABLE count :   INTEGER RANGE 0 TO 416_000;
    BEGIN
       IF (reset = '1') THEN
-		count :=  0;
-		led0   <= '1';							-- LED0 off
-		led1   <= '1';							-- LED1 off
-		led2   <= '1';							-- LED2 off
-		led3   <= '1';							-- LED3 off
-		led4   <= '1';							-- LED4 off
-		led5   <= '1';							-- LED5 off
-		led6   <= '1';							-- LED6 off
-		led7   <= '1';							-- LED7 off 
+		count 		:=	0;
+		shift_reg   <=	"10000000";					-- LED1 on, rest off 
 	  ELSIF(clk'EVENT AND clk = '1') THEN
-         IF(count < 25_000_000) THEN
+         IF(count < 416_000) THEN
             count := count + 1;
          ELSE
-            count := 0;
-            led7 <= NOT led7;					-- Change LED7 state				
+            count := 0;				
          END IF;
       END IF;
    END PROCESS;
+  
+   leds_scanner   <= shift_reg;						-- Update LEDs 
+   
 END LED;
