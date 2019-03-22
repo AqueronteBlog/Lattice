@@ -1,8 +1,8 @@
 -- @brief       LED_Scanner.vhd
--- @details     [TODO] This example shows how to make an LED blink every 0.5 second. While reset pin is 'HIGH',
+-- @details     This example shows how to make an LED scanner. While reset pin is 'HIGH',
 --				all LEDs are off.
 --
---				Internal oscillator is used at 53.20MHz.
+--				Internal oscillator is used at 2.08MHz.
 --
 --
 --
@@ -22,14 +22,19 @@ USE ieee.numeric_std.all;
 LIBRARY machxo2;
 USE machxo2.all;
 
-
+-- Entity
 ENTITY LED_SCANNER_block IS
+	GENERIC (
+			CONSTANT LED_DELAY : INTEGER := 208_000		-- Delay between LEDs ( 208000 * ( 1 / 2.08MHz ) = 100ms )
+			);
+		  
 	PORT (
 			reset			:	IN	STD_LOGIC;
 			leds_scanner	: 	OUT	STD_LOGIC_VECTOR (7 downto 0)
 		  );
 END LED_SCANNER_block;
 
+-- Architecture
 ARCHITECTURE LED of LED_SCANNER_block IS
 	SIGNAL clk			: STD_LOGIC;
 	SIGNAL shift_reg 	: STD_LOGIC_VECTOR (7 DOWNTO 0) := "10000000";
@@ -54,13 +59,13 @@ BEGIN
 
 -- Generate a delay ( 208000 * ( 1 / 2.08MHz ) = 100ms ) and analyze the reset pin	  
 	LED_Divider:	PROCESS(clk, reset)
-		VARIABLE count :   INTEGER RANGE 0 TO 208_000;
+		VARIABLE count :   INTEGER RANGE 0 TO LED_DELAY;
 		BEGIN
 			IF (reset = '1') THEN
 				count 	:=	0;
 				state   <=	TO_UNSIGNED(1,4);				-- state = 1 
 			ELSIF(clk'EVENT AND clk = '1') THEN
-				IF(count < 208_000) THEN
+				IF(count < LED_DELAY) THEN
 					count := count + 1;
 					state <= state;
 				ELSE
