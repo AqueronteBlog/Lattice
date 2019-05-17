@@ -1,1 +1,0 @@
-@W: MT529 :"d:\workspace\lattice\machxo2\examples\vhdl\led_blinky\led_blinky.vhd":61:6:61:7|Found inferred clock LED_block|clk_inferred_clock which controls 26 sequential elements including count[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
