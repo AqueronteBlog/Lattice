@@ -100,3 +100,11 @@ MachXO2/Examples/VHDL/LED_Scanner/.floorplanner.ini
 MachXO2/Examples/VHDL/LED_Scanner/rev_1/synwork/LED_scanner_prem.fse
 MachXO2/Examples/VHDL/LED_Scanner/rev_1/synwork/.complist
 MachXO2/Examples/VHDL/LED_Scanner/impl1/impl1.sei
+MachXO2/Examples/VHDL/Basics/D_Flip_Flop_Asynchronous_Reset/D_Flip_Flop_Asynchronous_Reset/
+MachXO2/Examples/VHDL/Basics/D_Flip_Flop_Asynchronous_Reset/D_Flip_Flop_Asynchronous_Reset_Simulation/
+MachXO2/Examples/VHDL/Basics/D_Flip_Flop_Asynchronous_Reset/D_Flip_Flop_Asynchronous_Reset.lst
+MachXO2/Examples/VHDL/Basics/D_Flip_Flop_Asynchronous_Reset/._Real_._Math_.vhd
+MachXO2/Examples/VHDL/Basics/D_Flip_Flop_Asynchronous_Reset/hdle_generate_tbtemplate.tcl
+MachXO2/Examples/VHDL/Basics/D_Flip_Flop_Asynchronous_Reset/D_Flip_Flop_Asynchronous_Reset.sort
+MachXO2/Examples/VHDL/Basics/D_Flip_Flop_Asynchronous_Reset/.run_manager.ini
+MachXO2/Examples/VHDL/Basics/D_Flip_Flop_Asynchronous_Reset/D_Flip_Flop_Asynchronous_Reset1.sty
