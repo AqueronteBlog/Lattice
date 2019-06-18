@@ -1,6 +1,5 @@
 -- @brief       D_Flip_Flop_Asynchronous_Reset.vhd
--- @details     [TODO]This example shows how to make an LED scanner. While reset pin is 'HIGH',
---				all LEDs are off.
+-- @details     This example describes a D-Flip-Flop with asynchronous Reset line.
 --
 --				Internal oscillator is used at 2.08MHz.
 --
@@ -34,6 +33,7 @@ END ENTITY D_Flip_Flop_Asynchronous_Reset;
 ARCHITECTURE D_FLIP_FLOP of D_Flip_Flop_Asynchronous_Reset IS
 	SIGNAL aux_d : STD_LOGIC := '0';
 
+-- D Flip-Flop with Asynchronous Reset
 BEGIN	  
 D_FF:	PROCESS(clk, reset)
 			BEGIN
