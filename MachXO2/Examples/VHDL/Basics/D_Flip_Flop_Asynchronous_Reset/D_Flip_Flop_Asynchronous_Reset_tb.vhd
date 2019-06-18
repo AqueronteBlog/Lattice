@@ -29,19 +29,19 @@ ARCHITECTURE behavior OF testbench IS
 
 	COMPONENT D_Flip_Flop_Asynchronous_Reset
 	PORT(
-		d : IN std_logic;
+		d : 	IN std_logic;
 		reset : IN std_logic;
-		clk : IN std_logic;          
-		q : OUT std_logic;
-		nq : OUT std_logic
+		clk : 	IN std_logic;          
+		q : 	OUT std_logic;
+		nq : 	OUT std_logic
 		);
 	END COMPONENT;
 
-	SIGNAL d :  std_logic;
+	SIGNAL d :  	std_logic;
 	SIGNAL reset :  std_logic;
-	SIGNAL clk :  std_logic;
-	SIGNAL q :  std_logic;
-	SIGNAL nq :  std_logic;
+	SIGNAL clk :  	std_logic := '0';
+	SIGNAL q :  	std_logic;
+	SIGNAL nq :  	std_logic;
 	
 	CONSTANT PERIOD : time := 20 ns;
 
@@ -61,25 +61,28 @@ BEGIN
 -- CLK process
 CLK1:	PROCESS
 BEGIN
-
+	
 	clk <= '1';
 	WAIT FOR PERIOD/2;
 	clk <= '0';
 	WAIT FOR PERIOD/2;
+	--clk <= NOT clk AFTER PERIOD/2;
 	
 END PROCESS;
 
+-- Testbench
 tb: PROCESS
    BEGIN
       reset <= '1';
-	  WAIT FOR 40 NS;
+	  WAIT FOR 15 ns;
 	  reset <= '0';
 	  
-	  d <= '1';
-	  WAIT FOR 40 NS;
-	  d <= '0';
-	  WAIT FOR 40 NS;
-	  
+	  LOOP
+	  	d <= '1';
+	  	WAIT FOR 40 ns;
+	  	d <= '0';
+	  	WAIT FOR 40 ns;
+	  END LOOP;
    END PROCESS;
 -- *** End Test Bench - User Defined Section ***
 
