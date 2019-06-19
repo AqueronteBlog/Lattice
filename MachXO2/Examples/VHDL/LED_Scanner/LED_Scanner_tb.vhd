@@ -43,6 +43,7 @@ BEGIN
 	
 	SIMULATION : PROCESS
 	BEGIN
+		myReset <= '1';
 		-- [TODO] Complete the simulation part
 	END PROCESS SIMULATION;
 END ARCHITECTURE test;
