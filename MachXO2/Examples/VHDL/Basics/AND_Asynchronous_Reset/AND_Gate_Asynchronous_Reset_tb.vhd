@@ -29,14 +29,14 @@ ARCHITECTURE behavior OF testbench IS
 
 	COMPONENT AND_Gate_Asynchronous_Reset
 	PORT(
-		d : IN std_logic_vector(2 downto 0);
+		d : IN std_logic_vector(2-1 downto 0);
 		reset : IN std_logic;
 		clk : IN std_logic;          
 		q : OUT std_logic
 		);
 	END COMPONENT;
 
-	SIGNAL d :  std_logic_vector(2 downto 0);
+	SIGNAL d :  std_logic_vector(2-1 downto 0);
 	SIGNAL reset :  std_logic;
 	SIGNAL clk :  std_logic;
 	SIGNAL q :  std_logic;
@@ -72,13 +72,13 @@ tb: PROCESS
 	  reset <= '0';
 	  
 	  LOOP
-	  	d <= '00';
+	  	d <= "00";
 	  	WAIT FOR 40 ns;
-	  	d <= '01';
+	  	d <= "01";
 	  	WAIT FOR 40 ns;
-		d <= '10';
+		d <= "10";
 	  	WAIT FOR 40 ns;
-		d <= '11';
+		d <= "11";
 	  	WAIT FOR 40 ns;
 	  END LOOP;
    END PROCESS;
