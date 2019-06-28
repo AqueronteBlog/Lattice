@@ -28,7 +28,7 @@ ENTITY AND_Gate_Asynchronous_Reset IS
 			);
 	
 	PORT (
-			d			: 	IN	STD_LOGIC_VECTOR (INPUT_LINES DOWNTO 0); 
+			d			: 	IN	STD_LOGIC_VECTOR ((INPUT_LINES - 1) DOWNTO 0); 
 			reset, clk 	:	IN	STD_LOGIC;
 			q			: 	OUT	STD_LOGIC
 		  );
@@ -36,23 +36,25 @@ END ENTITY AND_Gate_Asynchronous_Reset;
 
 -- Architecture
 ARCHITECTURE AND_Gate of AND_Gate_Asynchronous_Reset IS
-	SIGNAL aux_q : STD_LOGIC := '0';
+	--SIGNAL aux_q : STD_LOGIC := '0';
 
 -- AND gate with Asynchronous Reset
 BEGIN	  
-AND_Gate:	PROCESS(clk, reset)
+AND_Gate:	PROCESS(clk, reset)	
+				VARIABLE aux_q : STD_LOGIC := '0';
 				BEGIN
 					IF (reset = '1') THEN
-						aux_q <= '0';
+						aux_q := '0';
 					ELSIF(clk'EVENT AND clk = '1') THEN
-						aux_q <= d(0);
+						aux_q := d(0);
 						FOR I IN 1 TO ( INPUT_LINES - 1 ) LOOP
-							aux_q <= aux_q AND d(I); 
+							aux_q := aux_q AND d(I); 
 						END LOOP;
 					END IF;
+				q  <= aux_q;
 			END PROCESS;
 	
 			-- Update output
-			q  <= aux_q;
+			--q  <= aux_q;
    
 END ARCHITECTURE AND_Gate;
