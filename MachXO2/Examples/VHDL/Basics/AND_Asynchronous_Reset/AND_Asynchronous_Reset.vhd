@@ -36,7 +36,6 @@ END ENTITY AND_Gate_Asynchronous_Reset;
 
 -- Architecture
 ARCHITECTURE AND_Gate of AND_Gate_Asynchronous_Reset IS
-	--SIGNAL aux_q : STD_LOGIC := '0';
 
 -- AND gate with Asynchronous Reset
 BEGIN	  
@@ -53,8 +52,5 @@ AND_Gate:	PROCESS(clk, reset)
 					END IF;
 				q  <= aux_q;
 			END PROCESS;
-	
-			-- Update output
-			--q  <= aux_q;
    
 END ARCHITECTURE AND_Gate;
