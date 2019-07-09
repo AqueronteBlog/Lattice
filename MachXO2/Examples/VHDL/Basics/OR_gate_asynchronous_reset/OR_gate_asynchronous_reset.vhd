@@ -35,7 +35,7 @@ END ENTITY OR_Gate_Asynchronous_Reset;
 -- Architecture
 ARCHITECTURE OR_Gate of OR_Gate_Asynchronous_Reset IS
 
--- AND gate with Asynchronous Reset
+-- OR gate with Asynchronous Reset
 BEGIN	  
 OR_Gate:	PROCESS(clk, reset)	
 				VARIABLE aux_q : STD_LOGIC := '0';
@@ -45,7 +45,7 @@ OR_Gate:	PROCESS(clk, reset)
 					ELSIF(clk'EVENT AND clk = '1') THEN
 						aux_q := d(0);
 						FOR I IN 1 TO ( INPUT_LINES - 1 ) LOOP
-							aux_q := aux_q AND d(I); 
+							aux_q := aux_q OR d(I); 
 						END LOOP;
 					END IF;
 				q  <= aux_q;
