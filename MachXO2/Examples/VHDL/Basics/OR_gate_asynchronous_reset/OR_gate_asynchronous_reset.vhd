@@ -2,7 +2,6 @@
 -- @details     This example describes an OR device with asynchronous Reset line and n-inputs.
 --
 --
---
 -- @return      N/A
 --
 -- @author      Manuel Caballero
