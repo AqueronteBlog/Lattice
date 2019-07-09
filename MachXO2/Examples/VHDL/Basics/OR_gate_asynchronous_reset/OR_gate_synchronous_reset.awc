@@ -1,0 +1,113 @@
+<config>
+    <version>
+        2.0
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="3065ec6ad52631da245d7676308b0200">OR_gate_asynchronous_reset/src/wave.asdb</database>
+    </databases>
+    <regionsvisible/>
+    <signallists>
+        <signallist id="0">
+                AAAADQrAwAEAABABBAEQAAAQEQAA
+|
+        </signallist>
+    </signallists>
+    <propertybases>
+        <propertybase id="0">
+            <propclass name="radix">
+            </propclass>
+            <propclass name="mode">
+            </propclass>
+            <propclass name="notation">
+            </propclass>
+            <propclass name="reverse">
+            </propclass>
+            <propclass name="bold">
+                <property first="268435457" last="268435457">
+                1
+                </property>
+                <property first="268435460" last="268435460">
+                1
+                </property>
+            </propclass>
+            <propclass name="row_height">
+            </propclass>
+            <propclass name="color">
+            </propclass>
+            <propclass name="compared">
+            </propclass>
+            <propclass name="analog_bounds">
+            </propclass>
+            <propclass name="fixedpoint">
+            </propclass>
+            <propclass name="floating_encoding">
+            </propclass>
+            <propclass name="floating_notation">
+            </propclass>
+            <propclass name="floating_precision">
+            </propclass>
+            <propclass name="rounding_method">
+            </propclass>
+            <propclass name="aliasname">
+            </propclass>
+        </propertybase>
+    </propertybases>
+    <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="305850" />
+            <pref name="Start Time" value="0" />
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="400000" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+        <measurements id="0">
+            <measurement beginSigID="268435456" beginTopParentPosID="1" beginTime="190000" endSigID="268435456" endTopParentPosID="1" endTime="200000" drawOnSigID="268435456" drawOnTopParentPosID="1" measurementUnit="0" startAnchorToMainSignal="1" endAnchorToMainSignal="1" />
+            <measurement beginSigID="268435456" beginTopParentPosID="1" beginTime="200000" endSigID="268435456" endTopParentPosID="1" endTime="210000" drawOnSigID="268435456" drawOnTopParentPosID="1" measurementUnit="0" startAnchorToMainSignal="1" endAnchorToMainSignal="1" />
+            <measurement beginSigID="268435461" beginTopParentPosID="3" beginTime="0" endSigID="268435461" endTopParentPosID="3" endTime="15000" drawOnSigID="268435461" drawOnTopParentPosID="3" measurementUnit="0" startAnchorToMainSignal="1" endAnchorToMainSignal="1" />
+        </measurements>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+        <comments id="1">
+            <signalscomment beginSigID="268435460" beginTopParentPosID="2" beginTime="60000" text="Output synchronized" anchorToMainSignal="1" />
+            <signalscomment beginSigID="268435461" beginTopParentPosID="3" beginTime="15000" text="Reset" anchorToMainSignal="1" />
+        </comments>
+    </commentbases>
+    <regionsbases>
+        <regions id="0">
+        </regions>
+        <regions id="1">
+            <region topPosition="0" bottomPosition="5" leftTime="303" rightTime="15186" name="Export Area 1" />
+            <region topPosition="0" bottomPosition="5" leftTime="54974" rightTime="59833" name="Export Area 2" />
+        </regions>
+    </regionsbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="1" comments="1" regions="1" />
+    </views>
+    <virtualsources>
+        <virtualnamedrows>
+        </virtualnamedrows>
+        <virtualbuses>
+        </virtualbuses>
+        <virtualalias>
+        </virtualalias>
+        <virtualbusalias>
+        </virtualbusalias>
+        <virtualanalogalias>
+        </virtualanalogalias>
+        <virtualanalogbusalias>
+        </virtualanalogbusalias>
+        </virtualsources>
+</config>
