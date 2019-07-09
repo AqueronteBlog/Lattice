@@ -290,3 +290,6 @@ MachXO2/Examples/VHDL/Basics/NOT_Asynchronous_Reset/NOT_Asynchronous_Reset_tb/NO
 MachXO2/Examples/VHDL/Basics/NOT_Asynchronous_Reset/NOT_Asynchronous_Reset_tb/work/1work.mgf
 MachXO2/Examples/VHDL/Basics/NOT_Asynchronous_Reset/NOT_Asynchronous_Reset_tb/work/0work.mgf
 MachXO2/Examples/VHDL/Basics/NOT_Asynchronous_Reset/NOT_Asynchronous_Reset_tb/compile/vcom.cmd
+MachXO2/Examples/VHDL/Basics/OR_gate_asynchronous_reset/OR_gate_asynchronous_reset/._Real_._Math_.vhd
+MachXO2/Examples/VHDL/Basics/OR_gate_asynchronous_reset/.recovery
+MachXO2/Examples/VHDL/Basics/OR_gate_asynchronous_reset/OR_gate_asynchronous_reset1.sty
